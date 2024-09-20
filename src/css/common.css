@@ -21928,4 +21928,8 @@ a.has-background-danger:active, button.has-background-danger:active, has-backgro
   pointer-events: all !important;
 }
 
+#nav_brand {
+  line-height: 52px;
+}
+
 /*# sourceMappingURL=common.css.map */
