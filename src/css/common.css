@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Reggae+One&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap");
 /*! bulma.io v1.0.2 | MIT License | github.com/jgthms/bulma */
 :root {
   --bulma-control-radius:var(--bulma-radius);
@@ -21926,6 +21927,94 @@ a.has-background-danger:active, button.has-background-danger:active, has-backgro
 .is-clickable {
   cursor: pointer !important;
   pointer-events: all !important;
+}
+
+.zen-kaku-gothic-new-light {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zen-kaku-gothic-new-regular {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zen-kaku-gothic-new-medium {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zen-kaku-gothic-new-bold {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zen-kaku-gothic-new-black {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.reggae-one-regular {
+  font-family: "Reggae One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nav_brand {
+  line-height: 52px;
+}
+
+.hero {
+  background-image: url(../assets/top_back.jpg);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("../assets/top_back.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Poppins", sans-serif;
+}
+
+.hero .title {
+  font-family: "Kaushan Script", sans-serif;
+  transform: rotate(-5deg);
+  font-size: 5rem;
+  color: whitesmoke;
+}
+
+.hero .subtitle {
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.hero .profession {
+  padding-top: 50px;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.header-wrapper {
+  padding-bottom: 30px;
+}
+
+.navbar-menu.is-active {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-menu.is-active > .navbar-start {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#navBar {
+  position: fixed;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=common.css.map */

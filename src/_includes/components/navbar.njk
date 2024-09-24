@@ -1,13 +1,62 @@
-<div class="nav-container">
-    <div class="logo">
-        <a href="/">
-            J.
+
+<nav id="navBar" class="navbar container" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+            <div id="nav_brand" class="has-text-centered is-size-4 pr-4">
+                <a href="/">T.Kimura's Portfolio</a>
+            </div>
+
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
         </a>
     </div>
-    <div class="nav">
-        <a href="/projects" class="link">
-            Projects
-        </a>
-        <a href="https://docs.google.com/document/d/10ZosQ38Z3804KYPcb_aZp9bceoXK-q3GrkHjYshqIRE/edit?usp=sharing" class="cta-btn">Resume</a>
+
+    <div id="navMenu" class="navbar-menu is-justify-content-flex-end">
+        <div class="navbar-start">
+            <a href="/projects" class="navbar-item">
+                Projects
+            </a>
+
+            <a class="navbar-item">
+                Documentation
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    More
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        About
+                    </a>
+                    <a class="navbar-item is-selected">
+                        Jobs
+                    </a>
+                    <a class="navbar-item">
+                        Contact
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                        Report an issue
+                    </a>
+                </div>
+            </div>
+        </div>
+
+{#        <div class="navbar-end">#}
+{#            <div class="navbar-item">#}
+{#                <div class="buttons">#}
+{#                    <a class="button is-primary">#}
+{#                        <strong>Sign up</strong>#}
+{#                    </a>#}
+{#                    <a class="button is-light">#}
+{#                        Log in#}
+{#                    </a>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
     </div>
-</div>
+</nav>
