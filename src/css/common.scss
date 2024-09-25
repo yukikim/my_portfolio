@@ -84,3 +84,51 @@
   position: fixed;
   max-width: 100%;
 }
+.main-content .section-light.about-me {
+  padding-bottom: 100px;
+}
+.main-content .section-light {
+  padding: 30px;
+}
+.hero .hero-foot {
+  height: 50px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+}
+.hero .hero-foot .hero-foot--wrapper {
+  margin: 7px auto;
+  height: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
+  line-height: 38px;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+//about
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+.card .media:not(:last-child) {
+  margin: 0;
+}
+.column > .card {
+  height: 100%;
+}
+#goTop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
