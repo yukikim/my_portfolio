@@ -2,7 +2,7 @@
 <nav id="navBar" class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
             <div id="nav_brand" class="pl-4 has-text-centered is-size-6 pr-4">
-                <a href="/" title="木村孝幸ポートフォリオ">My Portfolio</a>
+                <a href="/my_portfolio/" title="木村孝幸ポートフォリオ">My Portfolio</a>
             </div>
 
         <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -18,7 +18,7 @@
             {%- if page.url == "/" %}
                 <a href="#about-me" class="navbar-item">About me</a>
             {%- else %}
-                <a href="/#about-me" class="navbar-item">About me</a>
+                <a href="/my_portfolio/#about-me" class="navbar-item">About me</a>
             {%- endif %}
 
             {%- for item in metadata.items %}

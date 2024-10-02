@@ -1,6 +1,6 @@
 {
   "items": [
-    {"url": "/projects/", "title": "Projects"},
-    {"url": "/resumes/", "title": "Resumes"}
+    {"url": "/my_portfolio/projects/", "title": "Projects"},
+    {"url": "/my_portfolio/resumes/", "title": "Resumes"}
   ]
 }
