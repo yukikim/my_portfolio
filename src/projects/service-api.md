@@ -3,7 +3,7 @@ layout: layouts/project.njk
 title: API開発
 dateSpan: "2016/12~2023/03"
 description: "情報提供API開発"
-image: "/assets/dedama_image.jpg"
+image: "/my_portfolio/assets/dedama_image.jpg"
 date: 2024-08-03
 ---
 

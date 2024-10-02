@@ -3,7 +3,7 @@ layout: layouts/project.njk
 title: ウェブサイト制作・CMS構築
 dateSpan: "2017/09~2023/03"
 description: "CMS(WordPress)サイト制作"
-image: "/assets/makeWordpress.jpg"
+image: "/my_portfolio/assets/makeWordpress.jpg"
 site_url: ["https://agri-policy.jp/","https://meiji-agrichem.jp/","https://meiji-lifesci.jp/"]
 date: 2024-08-06
 ---

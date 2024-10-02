@@ -3,7 +3,7 @@ layout: layouts/project.njk
 title: 監視カメラ
 dateSpan: "2017/10~2023/03"
 description: "監視カメラ録画システム"
-image: "/assets/camBoxImages.jpg"
+image: "/my_portfolio/assets/camBoxImages.jpg"
 date: 2024-08-04
 ---
 ### 監視カメラ録画システム

@@ -3,7 +3,7 @@ layout: layouts/project.njk
 title: ECサイトマイグレーション
 dateSpan: "2014/10~2016/11"
 description: "ECサイトリニューアル"
-image: "/assets/create_site_sample.jpg"
+image: "/my_portfolio/assets/create_site_sample.jpg"
 date: 2024-08-02
 site_url: ["https://www.biokura.jp/"]
 ---

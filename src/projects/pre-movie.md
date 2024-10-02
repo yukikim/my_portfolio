@@ -3,7 +3,7 @@ layout: layouts/project.njk
 title: データプレゼンサイト
 dateSpan: "2017/06~2023/03"
 description: "動画等データ提供サイト"
-image: "/assets/pre-movie.jpg"
+image: "/my_portfolio/assets/pre-movie.jpg"
 site_url: ["http://creategarage.net/"]
 date: 2024-08-05
 ---
