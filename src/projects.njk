@@ -2,22 +2,31 @@
 layout: layouts/base.njk
 title: Projects
 ---
-
+{% include "components/projectHero.njk" %}
 <div class="projects-container">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-        {% for project in collections.projects %}
-            <div class="project-card">
-                <div class="project-header">
-                    <i class="fa-regular fa-folder-open folder-icon"></i>
-                    <div class="small-icons">
-                        <a href={{project.data.gitHubURL}}><i class="fa-brands fa-github"></i></a>
-                    </div>
+    <div class="container">
+        <div class="section is-medium">
+            <h1 class="is-size-3 is-size-4-mobile pb-6 noto-sans-jp-800 has-text-centered has-text-warning-60">Projects</h1>
+                <div class="grid is-col-min-10">
+                    {% for project in collections.projects %}
+                        <div class="cell" data-aos="fade-up">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">{{project.data.title}}</p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="card-date">
+                                        <p>期間 : {{project.data.dateSpan}}</p>
+                                    </div>
+                                    <p>{{project.data.description}}</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="{{project.url}}" class="cta-btn">Read more</a>
+                                </footer>
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
-                <h3>{{project.data.title}}</h3>
-                <p>{{project.data.description}}</p>
-                <a href="{{project.url}}" class="cta-btn">Read more</a>
-            </div>
-        {% endfor %}
+        </div>
     </div>
 </div>

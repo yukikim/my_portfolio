@@ -9,6 +9,10 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByGlob('src/projects/*.md');
 	});
 
+	eleventyConfig.addCollection('resumes', (collection) => {
+		return collection.getFilteredByGlob('src/resumes/*.md');
+	});
+
 	eleventyConfig.addShortcode('year', () => {
 		return `${new Date().getFullYear()}`;
 	});

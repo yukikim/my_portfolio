@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+title: Resume
+---
+{% include "components/projectHero.njk" %}
+<div class="projects-container">
+    <div class="container">
+        <div class="section is-medium">
+            <h1 class="is-size-3 is-size-4-mobile pb-6 noto-sans-jp-800 has-text-centered has-text-warning-60">Resume</h1>
+                <div class="">
+                    {% for resume in collections.resumes %}
+                        <div class="box resumeBox" data-aos="fade-up">
+                            <div class="columns">
+                                <div id="data" class="column">
+                                    <div class="columns">
+                                        <p class="column is-4">期間 : {{resume.data.dateSpan}}</p>
+                                        <h3 class="column is-7 is-size-6">{{resume.data.title}}</h3>
+                                    </div>
+                                    <div class="arrow"></div>
+                                </div>
+                                <main class="column is-size-7">
+                                    <p>{{resume.data.description}}</p>
+                                    <div id="mdContent" class="main-content">
+                                        {{resume.content | safe}}
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+        </div>
+    </div>
+</div>

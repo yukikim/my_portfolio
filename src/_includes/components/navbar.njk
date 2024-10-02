@@ -15,18 +15,23 @@
 
     <div id="navMenu" class="navbar-menu is-justify-content-flex-end">
         <div class="navbar-start">
-            <a href="#about-me" class="navbar-item" title="自己紹介">
-                About me
-            </a>
+            {%- if page.url == "/" %}
+                <a href="#about-me" class="navbar-item">About me</a>
+            {%- else %}
+                <a href="/#about-me" class="navbar-item">About me</a>
+            {%- endif %}
 
-            <a href="#" class="navbar-item" title="職務経歴">
-                Projects
-            </a>
-
-            <a href="#" class="navbar-item" title="履歴書">
-                Resume
-            </a>
-
+            {%- for item in metadata.items %}
+                {%- if item.url == page.url %}
+                    <a href="{{item.url}}" class="navbar-item" aria-current="page">
+                        {{item.title}}
+                    </a>
+                {%- else %}
+                    <a href="{{item.url}}" class="navbar-item">
+                        {{item.title}}
+                    </a>
+                {%- endif %}
+            {%- endfor %}
         </div>
 
     </div>

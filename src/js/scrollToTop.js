@@ -19,3 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     })
 })
+
+/**
+ * アンカーリンクまでスムースにスクロールする
+ */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', (e) => {
+        e.preventDefault();
+        const href = anchor.getAttribute('href');
+        const target = document.getElementById(href.replace('#', ''));
+        const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    });
+});

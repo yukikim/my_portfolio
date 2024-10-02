@@ -3,33 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello Bulma!</title>
+	<meta name="robots" content="noindex" />
+	<title>{{ title }}</title>
+	<link rel="icon" href="/assets/favicon.jpeg" id="favicon">
 	<link rel="stylesheet" href="/css/common.css">
-	<script src="/js/showcase.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="noto-sans-jp-400">
 		{% include "components/navbar.njk" %}
 		{% block content %}
 			{{ content | safe }}
 		{% endblock %}
 		{% include "components/footer.njk" %}
 
-		<button class="button is-primary">Button</button>
-		<button class="button is-link">Button</button>
-		<button class="button is-info">Button</button>
-		<button class="button is-success">Button</button>
-		<button class="button is-warning">Button</button>
-		<button class="button is-danger">Button</button>
-
 		<div id="goTop">
 			<button class="button is-info mb-1 mr-1" id="scrollTopButton" style="display: none">GoTop</button>
 		</div>
 
 		<!-- Scripts -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="js/showcase.js"></script>
-		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
 			AOS.init({
 				easing: "ease-out",
