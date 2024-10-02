@@ -18,6 +18,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	return {
+		pathPrefix: "my_portfolio/",
 		dir: {
 			input: 'src',
 			output: 'docs',
