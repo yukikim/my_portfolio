@@ -1,0 +1,263 @@
+@use "../../node_modules/bulma/css/bulma.min.css";
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-jp-100 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.noto-sans-jp-400 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-sans-jp-800 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+body {
+  //background-color: #23263a;
+  background-color: #422431;
+  color: #c7c7c7;
+  overflow: hidden;
+}
+a {
+  color: #07B6D9;
+}
+.navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  background-color: #59552F;
+}
+a[aria-current="page"] {
+  background-color: #574534;
+}
+.accent-color {
+  color: #DB005C;
+}
+.sub-color {
+  color: #07B6D9;
+}
+.off-color {
+  color: #307684;
+}
+
+#nav_brand {
+  line-height: 52px;
+}
+
+#topHero {
+  background-image: url(../assets/top_back_2.jpg);
+  //background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("../assets/top_back.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Poppins', sans-serif;
+}
+
+#heroTitle {
+  font-family: 'Kaushan Script', sans-serif;
+  transform: rotate(-5deg);
+  font-size: 4rem;
+  color: whitesmoke;
+}
+.hero .subtitle {
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 1.25rem;
+}
+
+@media all and (max-width: 426px) {
+  #heroTitle {
+    font-size: 2rem;
+  }
+  .hero .subtitle {
+    font-size: 1rem;
+  }
+}
+
+
+.hero .profession {
+  padding-top: 50px;
+  //font-size: 1.7rem;
+}
+
+.header-wrapper {
+  padding-bottom: 30px;
+}
+.navbar-menu.is-active {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar-menu.is-active > .navbar-start {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#navBar {
+  position: fixed;
+  max-width: 100%;
+  background-color: #422431;
+}
+.main-content .section-light.about-me {
+  padding-bottom: 100px;
+}
+.main-content .section-light {
+  padding: 30px;
+}
+.hero .hero-foot {
+  height: 50px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+}
+.hero .hero-foot .hero-foot--wrapper {
+  margin: 7px auto;
+  height: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+.hero .hero-menu-desktop {
+  line-height: 38px;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.hero .hero-menu-desktop ul li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.hero .hero-menu-desktop ul li a {
+  color: #edb835;
+}
+.hero .hero-menu-desktop ul li a:any-link:hover {
+  color: #edd69c;
+  border-bottom: solid 1px;
+}
+
+//about
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+.card .media:not(:last-child) {
+  margin: 0;
+}
+.column > .card {
+  height: 100%;
+  background-color: #307684;
+  color: #c7c7c7;
+}
+#goTop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#projectHero {
+  background-image: url(../assets/projects_back.jpg);
+  background-position: center -200px;
+}
+.card-image {
+  background-image: url("../assets/myProfileImage.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  height: 100%;
+}
+@media screen and (max-width: 769px) {
+  .card-image {
+    height: 300px;
+  }
+
+}
+
+//projects
+.card {
+  height: 16rem;
+  overflow: hidden;
+  background-color: #307684;
+  color: #e9e9e9;
+}
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  justify-content: flex-end;
+  background-color: #291828;
+}
+.card-date {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  border-bottom: solid 1px #afafaf;
+  color: #afafaf;
+}
+
+nav.breadcrumb li a {
+  color: #07B6D9;
+}
+nav.breadcrumb li, nav.breadcrumb li:before {
+  color: #118097;
+}
+
+#mdContent {
+  h2 {
+    font-size: 2em;
+    margin: 0.8em 0;
+  }
+  h3 {
+    font-size: 1.2em;
+    margin: 0.7em 0;
+  }
+  p {
+    padding: initial;
+    margin: 0.6rem;
+  }
+  ul {
+    margin-bottom: 2rem;
+  }
+  li {
+    list-style: disc;
+    margin-left: 1rem;
+  }
+  hr {
+    background-color: #8a8a8a;
+    height: 1px;
+  }
+}
+
+//Resume
+#resumeHero {
+  background-image: url(../assets/resumeHeroBack.jpg);
+  background-position: center top;
+}
+.resumeBox {
+  background-color: #30535a;
+}
+.arrow {
+  //background-color: #afafaf;
+  height: 100%;
+  //background-image: url(../assets/arrow1.png);
+  background: no-repeat bottom left url(../assets/arrow1.png);
+}
+.resumeBox:last-child .arrow {
+  background: none;
+}
