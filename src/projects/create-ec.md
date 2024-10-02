@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.njk
-title: ECサイトマイグレーション
+title: ECサイト制作
 dateSpan: "2014/10~2016/11"
 description: "ECサイトリニューアル"
 image: "/my_portfolio/assets/create_site_sample.jpg"
