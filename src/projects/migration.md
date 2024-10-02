@@ -13,12 +13,21 @@ date: 2024-08-08
 
 フロントアプリをReact.jsにて改修する際の実装および単体テストを行う。
 
+<div class="columns">
+<div class="column">
+
 ### 担当作業
 
 - フロントアプリ実装
 - 単体テスト
 
+</div>
+<div class="column">
+
 ### 習得及び使用した技能・知識等
 
 - React
 - Typescript
+
+</div>
+</div>

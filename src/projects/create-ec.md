@@ -20,6 +20,9 @@ ECサイトフレームワーク**EC-CUBE**にてシステム構築。
 
 PHP、MySQL、HTML、CSSのさらなる習熟に繋がりました。
 
+<div class="columns">
+<div class="column">
+
 ### 担当作業
 
 [フロントエンド、バックエンド]
@@ -30,6 +33,9 @@ PHP、MySQL、HTML、CSSのさらなる習熟に繋がりました。
 - 決算代行モジュール設定
 - 配送帳票等書き出し
 - レンタルサーバー設定
+
+</div>
+<div class="column">
 
 ### 習得及び使用した技能・知識等
 
@@ -43,3 +49,6 @@ PHP、MySQL、HTML、CSSのさらなる習熟に繋がりました。
 - PhpStorm
 - Linux
 - MacOS
+
+</div>
+</div>

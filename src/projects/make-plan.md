@@ -17,13 +17,21 @@ date: 2024-08-07
 
 画面設計書、帳票設計書を納めてプロジェクト終了
 
+<div class="columns">
+<div class="column">
 
 ### 担当作業
 
 - 設計書作成
 - レビュー
 
+</div>
+<div class="column">
+
 ### 習得及び使用した技能・知識等
 
 - Excel
 - Python
+
+</div>
+</div>

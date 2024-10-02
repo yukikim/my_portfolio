@@ -18,6 +18,9 @@ date: 2024-08-03
 
 各パチンコ店からの依頼によりLINE用出玉情報アプリを開発
 
+<div class="columns">
+<div class="column">
+
 ### 担当作業
 
 [バックエンド]
@@ -28,6 +31,9 @@ date: 2024-08-03
 - 設定ファイルにて対応アプリ(店舗)を追加
 - LINEフロント用店舗ロゴ、ボタン画像等の制作
 - LINE MessagingAPI設定
+
+</div>
+<div class="column">
 
 ### 習得及び使用した技能・知識等
 
@@ -42,3 +48,6 @@ date: 2024-08-03
 - Illustrator
 - Photoshop
 - MacOS
+
+</div>
+</div>

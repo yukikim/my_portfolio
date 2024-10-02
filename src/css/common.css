@@ -22186,6 +22186,11 @@ nav.breadcrumb li, nav.breadcrumb li:before {
   height: 1px;
 }
 
+#resumeHero {
+  background-image: url(../assets/resumeHeroBack.jpg);
+  background-position: center top;
+}
+
 .resumeBox {
   background-color: #30535a;
 }

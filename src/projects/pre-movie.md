@@ -20,6 +20,9 @@ Webサーバー設定からサイト制作を一人で担当、CakePHPにてサ�
 
 動画追加制作、サイト管理。
 
+<div class="columns">
+<div class="column">
+
 ### 担当作業
 
 [フロントエンド、バックエンド]
@@ -28,6 +31,9 @@ Webサーバー設定からサイト制作を一人で担当、CakePHPにてサ�
 - サイトデザイン
 - 動画制作
 - 動画等データのアップロード管理
+
+</div>
+<div class="column">
 
 ### 習得及び使用した技能・知識等
 
@@ -41,3 +47,6 @@ Webサーバー設定からサイト制作を一人で担当、CakePHPにてサ�
 - Git
 - AfterEffects
 - MacOS
+
+</div>
+</div>
