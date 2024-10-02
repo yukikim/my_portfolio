@@ -22204,4 +22204,8 @@ nav.breadcrumb li, nav.breadcrumb li:before {
   background: none;
 }
 
+#eleventy {
+  width: 2rem;
+}
+
 /*# sourceMappingURL=common.css.map */
