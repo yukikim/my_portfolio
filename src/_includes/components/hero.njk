@@ -5,18 +5,27 @@
             <div class="container has-text-centered">
                 <p class="subtitle has-text-warning-75">Hey there, I'm</p>
                 <h1 id="heroTitle" class="has-text-warning-60 ">Takayuki .K</h1>
-                <h2 class="subtitle profession has-text-warning-70"><span class="accent-color">Front end</span> Designer | <span class="sub-color">Developer</span> </h2>
+                <h2 class="subtitle profession has-text-warning-70">Front end Designer | Developer</h2>
             <div class="column is-12 hero-menu-desktop has-text-centered is-fixed-top">
                 <ul>
                     <li class="is-active">
                         <a href="#about-me">About Me</a>
                     </li>
-                    <li>
-                        <a href="/my_portfolio/projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="/my_portfolio/resumes">Resume</a>
-                    </li>
+                    {%- for item in metadata.items %}
+                        {%- if item.url == page.url %}
+                            <li>
+                                <a href="{{item.url}}" class="navbar-item" aria-current="page">
+                                    {{item.title}}
+                                </a>
+                            </li>
+                        {%- else %}
+                            <li>
+                                <a href="{{item.url}}" class="navbar-item">
+                                    {{item.title}}
+                                </a>
+                            </li>
+                        {%- endif %}
+                    {%- endfor %}
                 </ul>
             </div>
             </div>
